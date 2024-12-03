@@ -1,5 +1,6 @@
 {% import 'macros/form.html' as form %}
-
+{% asset 'c3charts/c3charts-css' %}
+{% asset 'c3charts/c3charts-js' %}
 <div data-module="c3charts_form"
      data-module-controls="{{ h.dump_json(resource_view) }}"
      id="c3controls"

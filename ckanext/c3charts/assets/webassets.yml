@@ -1,0 +1,20 @@
+c3charts_js:
+  extra:
+    preload:
+      - base/main
+  
+  contents:
+    - vendor/d3.js
+    - vendor/c3.js
+    - vendor/backend.ckan.js
+    - vendor/ckan.js
+    - charts.js
+    - charts_view.js
+    - charts_form.js
+
+
+c3charts_css
+  contents:
+    - vendor/c3.css
+    - c3controls.css
+    - charts.css

@@ -13,7 +13,7 @@ c3charts_js:
     - charts_form.js
 
 
-c3charts_css
+c3charts_css:
   contents:
     - vendor/c3.css
     - c3controls.css
